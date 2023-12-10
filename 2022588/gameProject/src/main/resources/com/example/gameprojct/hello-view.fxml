@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="489.0" prefWidth="393.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fitHeight="483.0" fitWidth="250.0" layoutX="16.0" layoutY="5.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@play.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="87.0" layoutY="244.0" mnemonicParsing="false" prefHeight="52.0" prefWidth="71.0" text="Play" visible="false" />
+      <Button layoutX="31.0" layoutY="417.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="23.0" text="Button" visible="false" />
+   </children>
+</AnchorPane>

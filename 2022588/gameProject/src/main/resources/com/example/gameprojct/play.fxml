@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="454.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.gameprojct.Play">
+   <children>
+      <ImageView fitHeight="380.0" fitWidth="683.0" layoutX="-60.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@playscreen.png" />
+         </image>
+      </ImageView>
+      <Rectangle arcHeight="4.0" arcWidth="5.0" height="120.0" layoutX="103.0" layoutY="263.0" stroke="BLACK" strokeMiterLimit="0.0" strokeType="INSIDE" width="14.0" />
+      <Button defaultButton="true" layoutX="278.0" layoutY="391.0" mnemonicParsing="false" onAction="#Move" text="Move" textAlignment="CENTER" textOverrun="WORD_ELLIPSIS">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
